@@ -352,6 +352,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime1"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="vxo-tW-u1W"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmJ-gS-c46">
                                                         <rect key="frame" x="116" y="0.0" width="100" height="100"/>
@@ -363,6 +366,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime2"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="AZq-9W-W24"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHS-In-ngO">
                                                         <rect key="frame" x="232" y="0.0" width="100" height="100"/>
@@ -374,6 +380,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime3"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="el6-py-WpE"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -424,6 +433,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime4"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="bYP-SF-6hD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-fQ-klH">
                                                         <rect key="frame" x="116" y="0.0" width="100" height="100"/>
@@ -435,6 +447,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime5"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="2s3-Cs-17a"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhw-jg-NBQ">
                                                         <rect key="frame" x="232" y="0.0" width="100" height="100"/>
@@ -446,6 +461,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime6"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="LqR-oi-TqC"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -496,6 +514,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime7"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="nb1-33-MTF"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McK-Ch-vDg">
                                                         <rect key="frame" x="116" y="0.0" width="100" height="100"/>
@@ -507,6 +528,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime8"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="NAm-71-P4g"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuc-gb-NJY">
                                                         <rect key="frame" x="232" y="0.0" width="100" height="100"/>
@@ -518,6 +542,9 @@
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <backgroundConfiguration key="background" image="sesac_slime9"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="QFd-Ik-WEI"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -582,10 +609,66 @@
                             <constraint firstItem="Rl4-ns-1kL" firstAttribute="centerY" secondItem="AFR-UX-KYD" secondAttribute="centerY" id="kNR-zk-gWf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="boredButton" destination="iO1-fU-jQH" id="Hu9-h2-f8D"/>
+                        <outlet property="boredLabel" destination="t6r-fp-Cle" id="sA2-Mj-7Es"/>
+                        <outlet property="giveUpButton" destination="Uuc-gb-NJY" id="uEW-kF-6z1"/>
+                        <outlet property="giveUpLabel" destination="QT2-el-xZL" id="v3b-bx-u8V"/>
+                        <outlet property="gloomyButton" destination="Dhw-jg-NBQ" id="omo-NM-cvy"/>
+                        <outlet property="gloomyLabel" destination="qm8-k0-yoF" id="GkV-pm-DaD"/>
+                        <outlet property="happyButton" destination="Tak-KD-VCb" id="QFS-zi-wMA"/>
+                        <outlet property="happyLabel" destination="boL-6p-7nD" id="sEd-o6-70y"/>
+                        <outlet property="likeButton" destination="MHS-In-ngO" id="Fho-bv-q3H"/>
+                        <outlet property="likeLabel" destination="hDm-fE-eXm" id="77v-ae-4Sd"/>
+                        <outlet property="loveButton" destination="vmJ-gS-c46" id="tPh-73-6Rd"/>
+                        <outlet property="loveLabel" destination="IMd-rT-x0r" id="HW9-b2-5Qb"/>
+                        <outlet property="stuffyButton" destination="4Su-G8-RlO" id="3Ya-Ju-CDJ"/>
+                        <outlet property="stuffyLabel" destination="JUr-QE-f7f" id="oss-vG-Y03"/>
+                        <outlet property="tiredButton" destination="McK-Ch-vDg" id="hCq-NW-neL"/>
+                        <outlet property="tiredLabel" destination="1h3-4Z-itv" id="jBR-Fn-Qvd"/>
+                        <outlet property="upsetButton" destination="ugq-fQ-klH" id="2rm-Tf-ezz"/>
+                        <outlet property="upsetLabel" destination="zDT-tN-tmf" id="OnE-aU-GQ2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0c-My-LmB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1921.7391304347827" y="2986.6071428571427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j6f-ga-r9B">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gb3-Tt-vJ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="fxk-E2-GuQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AtO-ee-Wul">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xfN-aZ-kol">
+                                <rect key="frame" x="32" y="187" width="280" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AYU-Ov-U5r">
+                                        <rect key="frame" x="20" y="20" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNx-J0-0WN">
+                                        <rect key="frame" x="133" y="170" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IJt-lW-9wX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3560.8695652173915" y="2932.3660714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L6N-Bn-Xbu">
