@@ -329,85 +329,223 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="oO5-4s-S4i">
-                                <rect key="frame" x="11" y="252" width="392" height="392"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-ns-1kL">
+                                <rect key="frame" x="41" y="229" width="332" height="438"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nk3-bv-XPQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="120"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="bOP-6u-Mv9">
+                                        <rect key="frame" x="0.0" y="0.0" width="332" height="140"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime1" translatesAutoresizingMaskIntoConstraints="NO" id="09W-o6-Ov8">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aiI-Cj-ZWb">
+                                                <rect key="frame" x="0.0" y="0.0" width="332" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tak-KD-VCb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="4i0-eQ-3aG"/>
+                                                            <constraint firstAttribute="height" constant="100" id="Frq-vQ-Rb7"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime1"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmJ-gS-c46">
+                                                        <rect key="frame" x="116" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="KTC-Zi-Sf0"/>
+                                                            <constraint firstAttribute="width" constant="100" id="ulN-fD-c17"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime2"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHS-In-ngO">
+                                                        <rect key="frame" x="232" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="LIU-WH-TCT"/>
+                                                            <constraint firstAttribute="width" constant="100" id="yse-Pt-bAX"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime3"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="120" id="wF8-ST-79G"/>
-                                                    <constraint firstAttribute="width" constant="120" id="yHY-j1-lrg"/>
+                                                    <constraint firstItem="MHS-In-ngO" firstAttribute="height" secondItem="Tak-KD-VCb" secondAttribute="height" id="4op-2X-Drg"/>
+                                                    <constraint firstItem="vmJ-gS-c46" firstAttribute="width" secondItem="Tak-KD-VCb" secondAttribute="width" id="DSQ-ML-OAM"/>
+                                                    <constraint firstItem="vmJ-gS-c46" firstAttribute="height" secondItem="Tak-KD-VCb" secondAttribute="height" id="cZH-oz-1yG"/>
+                                                    <constraint firstItem="MHS-In-ngO" firstAttribute="width" secondItem="Tak-KD-VCb" secondAttribute="width" id="xdO-hp-KuI"/>
                                                 </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime2" translatesAutoresizingMaskIntoConstraints="NO" id="xML-jZ-92z">
-                                                <rect key="frame" x="136" y="0.0" width="120" height="120"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="2OY-gS-yiZ"/>
-                                                    <constraint firstAttribute="height" constant="120" id="g5h-Gn-WFN"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime3" translatesAutoresizingMaskIntoConstraints="NO" id="DBq-g2-Gv0">
-                                                <rect key="frame" x="272" y="0.0" width="120" height="120"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="120" id="Qwo-Bh-Ldh"/>
-                                                    <constraint firstAttribute="width" constant="120" id="UPm-ah-gTf"/>
-                                                </constraints>
-                                            </imageView>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="59" translatesAutoresizingMaskIntoConstraints="NO" id="38M-2b-fWV">
+                                                <rect key="frame" x="24" y="116" width="284" height="24"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boL-6p-7nD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사랑해 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMd-rT-x0r">
+                                                        <rect key="frame" x="116" y="0.0" width="57" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="좋아해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDm-fE-eXm">
+                                                        <rect key="frame" x="232" y="0.0" width="52" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="jxj-f0-IXu">
-                                        <rect key="frame" x="0.0" y="136" width="392" height="120"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="s6k-fH-sal">
+                                        <rect key="frame" x="0.0" y="157" width="332" height="132"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime4" translatesAutoresizingMaskIntoConstraints="NO" id="Faa-OU-Uca">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="sNb-36-Vdf">
+                                                <rect key="frame" x="0.0" y="0.0" width="332" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Su-G8-RlO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="7cD-5U-LeW"/>
+                                                            <constraint firstAttribute="width" constant="100" id="ry1-rQ-hCN"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime4"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-fQ-klH">
+                                                        <rect key="frame" x="116" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="e7h-To-GnK"/>
+                                                            <constraint firstAttribute="height" constant="100" id="krH-d7-8nW"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime5"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhw-jg-NBQ">
+                                                        <rect key="frame" x="232" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="64Q-eA-VA3"/>
+                                                            <constraint firstAttribute="height" constant="100" id="fbi-Wo-pH2"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime6"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="120" id="Yyb-4A-HXE"/>
-                                                    <constraint firstAttribute="width" constant="120" id="la8-cq-aYD"/>
+                                                    <constraint firstItem="ugq-fQ-klH" firstAttribute="height" secondItem="4Su-G8-RlO" secondAttribute="height" id="1dz-Jo-gYq"/>
+                                                    <constraint firstItem="ugq-fQ-klH" firstAttribute="width" secondItem="4Su-G8-RlO" secondAttribute="width" id="NtO-gb-cAm"/>
+                                                    <constraint firstItem="Dhw-jg-NBQ" firstAttribute="width" secondItem="4Su-G8-RlO" secondAttribute="width" id="OhY-zC-Y9X"/>
+                                                    <constraint firstItem="Dhw-jg-NBQ" firstAttribute="height" secondItem="4Su-G8-RlO" secondAttribute="height" id="SUU-6q-8dY"/>
                                                 </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime5" translatesAutoresizingMaskIntoConstraints="NO" id="fU3-aV-eQ5">
-                                                <rect key="frame" x="136" y="0.0" width="120" height="120"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="120" id="QAf-Cp-88l"/>
-                                                    <constraint firstAttribute="width" constant="120" id="UiC-id-xCw"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime6" translatesAutoresizingMaskIntoConstraints="NO" id="ied-HV-tYy">
-                                                <rect key="frame" x="272" y="0.0" width="120" height="120"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="MZp-9W-nZp"/>
-                                                    <constraint firstAttribute="height" constant="120" id="VuR-Ro-yUw"/>
-                                                </constraints>
-                                            </imageView>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="8FH-mj-b5l">
+                                                <rect key="frame" x="24.5" y="108" width="283" height="24"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당황해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUr-QE-f7f">
+                                                        <rect key="frame" x="0.0" y="0.0" width="52" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="속상해 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDT-tN-tmf">
+                                                        <rect key="frame" x="113" y="0.0" width="57" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="우울해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qm8-k0-yoF">
+                                                        <rect key="frame" x="231" y="0.0" width="52" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5t9-ce-WAl">
-                                        <rect key="frame" x="0.0" y="272" width="392" height="120"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9eG-kN-jH0">
+                                        <rect key="frame" x="0.0" y="306" width="332" height="132"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime7" translatesAutoresizingMaskIntoConstraints="NO" id="pmC-wR-Ums">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="mgZ-1H-73S">
+                                                <rect key="frame" x="0.0" y="0.0" width="332" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iO1-fU-jQH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="7nu-ZT-NAn"/>
+                                                            <constraint firstAttribute="height" constant="100" id="JYs-2d-WMg"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime7"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McK-Ch-vDg">
+                                                        <rect key="frame" x="116" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="WsN-CH-E5M"/>
+                                                            <constraint firstAttribute="width" constant="100" id="gvE-d6-86N"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime8"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuc-gb-NJY">
+                                                        <rect key="frame" x="232" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="0Gb-fX-qpb"/>
+                                                            <constraint firstAttribute="height" constant="100" id="qJB-qI-svJ"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <backgroundConfiguration key="background" image="sesac_slime9"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="120" id="0w1-xe-pYB"/>
-                                                    <constraint firstAttribute="width" constant="120" id="H4d-69-RFv"/>
+                                                    <constraint firstItem="McK-Ch-vDg" firstAttribute="height" secondItem="iO1-fU-jQH" secondAttribute="height" id="j55-nW-LIa"/>
+                                                    <constraint firstItem="Uuc-gb-NJY" firstAttribute="width" secondItem="iO1-fU-jQH" secondAttribute="width" id="q5Z-wq-gbk"/>
+                                                    <constraint firstItem="Uuc-gb-NJY" firstAttribute="height" secondItem="iO1-fU-jQH" secondAttribute="height" id="sNy-X3-N5u"/>
+                                                    <constraint firstItem="McK-Ch-vDg" firstAttribute="width" secondItem="iO1-fU-jQH" secondAttribute="width" id="vDP-j2-raF"/>
                                                 </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime8" translatesAutoresizingMaskIntoConstraints="NO" id="Y1r-G3-DsU">
-                                                <rect key="frame" x="136" y="0.0" width="120" height="120"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="120" id="66N-EZ-K7v"/>
-                                                    <constraint firstAttribute="width" constant="120" id="UXI-o9-0am"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sesac_slime9" translatesAutoresizingMaskIntoConstraints="NO" id="BnE-xG-hr5">
-                                                <rect key="frame" x="272" y="0.0" width="120" height="120"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="djz-VJ-i2I"/>
-                                                    <constraint firstAttribute="height" constant="120" id="jVZ-HI-Y20"/>
-                                                </constraints>
-                                            </imageView>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="O2a-ch-EFq">
+                                                <rect key="frame" x="21" y="108" width="290" height="24"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="심심해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6r-fp-Cle">
+                                                        <rect key="frame" x="0.0" y="0.0" width="52" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="따분해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1h3-4Z-itv">
+                                                        <rect key="frame" x="119" y="0.0" width="52" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="포기해" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QT2-el-xZL">
+                                                        <rect key="frame" x="238" y="0.0" width="52" height="24"/>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -416,8 +554,8 @@
                         <viewLayoutGuide key="safeArea" id="4yi-VO-qKX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="oO5-4s-S4i" firstAttribute="centerX" secondItem="AFR-UX-KYD" secondAttribute="centerX" id="7vv-up-2hi"/>
-                            <constraint firstItem="oO5-4s-S4i" firstAttribute="centerY" secondItem="AFR-UX-KYD" secondAttribute="centerY" id="el2-Ib-4yl"/>
+                            <constraint firstItem="Rl4-ns-1kL" firstAttribute="centerX" secondItem="AFR-UX-KYD" secondAttribute="centerX" id="Pt3-7u-qJt"/>
+                            <constraint firstItem="Rl4-ns-1kL" firstAttribute="centerY" secondItem="AFR-UX-KYD" secondAttribute="centerY" id="kNR-zk-gWf"/>
                         </constraints>
                     </view>
                 </viewController>
