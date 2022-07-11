@@ -13,6 +13,7 @@
 		8158B962287BA3EC00BE911E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8158B960287BA3EC00BE911E /* Main.storyboard */; };
 		8158B964287BA3EF00BE911E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8158B963287BA3EF00BE911E /* Assets.xcassets */; };
 		8158B967287BA3EF00BE911E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8158B965287BA3EF00BE911E /* LaunchScreen.storyboard */; };
+		8158B96F287C1AC600BE911E /* EmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158B96E287C1AC600BE911E /* EmotionDiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8158B963287BA3EF00BE911E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8158B966287BA3EF00BE911E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8158B968287BA3EF00BE911E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8158B96E287C1AC600BE911E /* EmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8158B95A287BA3EC00BE911E /* AppDelegate.swift */,
 				8158B95C287BA3EC00BE911E /* SceneDelegate.swift */,
 				8158B95E287BA3EC00BE911E /* ViewController.swift */,
+				8158B96E287C1AC600BE911E /* EmotionDiaryViewController.swift */,
 				8158B960287BA3EC00BE911E /* Main.storyboard */,
 				8158B963287BA3EF00BE911E /* Assets.xcassets */,
 				8158B965287BA3EF00BE911E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8158B96F287C1AC600BE911E /* EmotionDiaryViewController.swift in Sources */,
 				8158B95F287BA3EC00BE911E /* ViewController.swift in Sources */,
 				8158B95B287BA3EC00BE911E /* AppDelegate.swift in Sources */,
 				8158B95D287BA3EC00BE911E /* SceneDelegate.swift in Sources */,

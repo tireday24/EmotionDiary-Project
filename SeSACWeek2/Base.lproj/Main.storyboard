@@ -321,14 +321,18 @@
             </objects>
             <point key="canvasLocation" x="1936" y="2135"/>
         </scene>
-        <!--View Controller-->
+        <!--Emotion Diary View Controller-->
         <scene sceneID="p2p-70-Vh7">
             <objects>
-                <viewController id="pci-Oh-Y52" sceneMemberID="viewController">
+                <viewController id="pci-Oh-Y52" customClass="EmotionDiaryViewController" customModule="SeSACWeek2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AFR-UX-KYD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2022-07-11 오후 5.47.20" translatesAutoresizingMaskIntoConstraints="NO" id="rZO-yl-iBI" userLabel="바탕화면">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-ns-1kL">
                                 <rect key="frame" x="41" y="229" width="332" height="438"/>
                                 <subviews>
@@ -550,11 +554,31 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="걈정 다이어리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSg-Qg-9BV">
+                                <rect key="frame" x="126" y="64" width="162.5" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HS-Ns-xz4">
+                                <rect key="frame" x="41" y="60" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="JiW-bR-P9M"/>
+                                    <constraint firstAttribute="height" constant="44" id="Sb9-OO-sto"/>
+                                </constraints>
+                                <color key="tintColor" red="0.075336097909999997" green="0.075209022520000002" blue="0.077428713110000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="bell.fill" catalog="system"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4yi-VO-qKX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="gSg-Qg-9BV" firstAttribute="centerY" secondItem="7HS-Ns-xz4" secondAttribute="centerY" id="P8g-h8-0pX"/>
                             <constraint firstItem="Rl4-ns-1kL" firstAttribute="centerX" secondItem="AFR-UX-KYD" secondAttribute="centerX" id="Pt3-7u-qJt"/>
+                            <constraint firstItem="gSg-Qg-9BV" firstAttribute="leading" secondItem="Rl4-ns-1kL" secondAttribute="trailing" constant="-247" id="Vde-bL-LcR"/>
+                            <constraint firstItem="7HS-Ns-xz4" firstAttribute="leading" secondItem="4yi-VO-qKX" secondAttribute="leading" constant="41" id="ZLB-Zn-vtr"/>
+                            <constraint firstItem="gSg-Qg-9BV" firstAttribute="top" secondItem="4yi-VO-qKX" secondAttribute="top" constant="20" id="f3q-w0-Qd3"/>
                             <constraint firstItem="Rl4-ns-1kL" firstAttribute="centerY" secondItem="AFR-UX-KYD" secondAttribute="centerY" id="kNR-zk-gWf"/>
                         </constraints>
                     </view>
@@ -743,6 +767,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="sesac_slime1" width="278" height="258"/>
         <image name="sesac_slime2" width="278" height="258"/>
@@ -754,6 +779,7 @@
         <image name="sesac_slime8" width="278" height="258"/>
         <image name="sesac_slime9" width="278" height="258"/>
         <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="스크린샷 2022-07-11 오후 5.47.20" width="812" height="822"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
