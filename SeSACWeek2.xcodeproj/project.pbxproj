@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		813D5B48287D1C0B00977CB1 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D5B47287D1C0B00977CB1 /* PracticeViewController.swift */; };
 		813D5B4A287D212400977CB1 /* SegementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D5B49287D212400977CB1 /* SegementViewController.swift */; };
-		813D5B4C287D4D3E00977CB1 /* NewEmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D5B4B287D4D3E00977CB1 /* NewEmotionDiaryViewController.swift */; };
 		8158B95B287BA3EC00BE911E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158B95A287BA3EC00BE911E /* AppDelegate.swift */; };
 		8158B95D287BA3EC00BE911E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158B95C287BA3EC00BE911E /* SceneDelegate.swift */; };
 		8158B95F287BA3EC00BE911E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158B95E287BA3EC00BE911E /* ViewController.swift */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		813D5B47287D1C0B00977CB1 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		813D5B49287D212400977CB1 /* SegementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegementViewController.swift; sourceTree = "<group>"; };
-		813D5B4B287D4D3E00977CB1 /* NewEmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmotionDiaryViewController.swift; sourceTree = "<group>"; };
 		8158B957287BA3EC00BE911E /* SeSACWeek2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8158B95A287BA3EC00BE911E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8158B95C287BA3EC00BE911E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				8158B95E287BA3EC00BE911E /* ViewController.swift */,
 				8158B96E287C1AC600BE911E /* EmotionDiaryViewController.swift */,
 				8158B960287BA3EC00BE911E /* Main.storyboard */,
-				813D5B4B287D4D3E00977CB1 /* NewEmotionDiaryViewController.swift */,
 				813D5B49287D212400977CB1 /* SegementViewController.swift */,
 				813D5B47287D1C0B00977CB1 /* PracticeViewController.swift */,
 				8158B963287BA3EF00BE911E /* Assets.xcassets */,
@@ -155,7 +152,6 @@
 				8158B95F287BA3EC00BE911E /* ViewController.swift in Sources */,
 				8158B95B287BA3EC00BE911E /* AppDelegate.swift in Sources */,
 				813D5B48287D1C0B00977CB1 /* PracticeViewController.swift in Sources */,
-				813D5B4C287D4D3E00977CB1 /* NewEmotionDiaryViewController.swift in Sources */,
 				8158B95D287BA3EC00BE911E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

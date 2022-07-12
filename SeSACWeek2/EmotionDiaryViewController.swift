@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+
 class EmotionDiaryViewController: UIViewController {
     
     @IBOutlet weak var happyButton: UIButton!
@@ -35,8 +37,19 @@ class EmotionDiaryViewController: UIViewController {
 //
     
     // data source
+    enum EmotionEnum: String {
+        case 행복해 = "행복해"
+        case 사랑해 = "사랑해"
+        case 좋아해 = "좋아해"
+        case 당황해 = "당황해"
+        case 속상해 = "속상해"
+        case 우울해 = "우울해"
+        case 심심해 = "심심해"
+        case 따분해 = "따분해"
+        case 포기해 = "포기해"
+    }
     var dictionary = [UIButton: UILabel]() // [:]
-    var emotionName = ["행복해", "사랑해", "좋아해", "당황해", "속상해", "우울해", "심심해", "따분해", "포기해"]
+    var emotionCases: [EmotionEnum] = [.행복해, .사랑해, .좋아해, .당황해, .속상해, .우울해, .심심해, .따분해, .포기해]
     var emotionArrary = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     override func viewDidLoad() {
@@ -47,7 +60,7 @@ class EmotionDiaryViewController: UIViewController {
         }
 //
          //dictionary 를 채워주기
-        dictionary = [happyButton: happyLabel, loveButton: loveLabel, likeButton: likeLabel, stuffyButton: stuffyLabel, upsetButton: upsetLabel, gloomyButton: gloomyLabel, boredButton: boredLabel, tiredButton: tiredLabel, giveUpButton: giveUpLabel ]
+//        dictionary = [happyButton: happyLabel, loveButton: loveLabel, likeButton: likeLabel, stuffyButton: stuffyLabel, upsetButton: upsetLabel, gloomyButton: gloomyLabel, boredButton: boredLabel, tiredButton: tiredLabel, giveUpButton: giveUpLabel ]
         
         
         labelDesign(happyLabel, labelTitle: "행복해")
@@ -69,8 +82,10 @@ class EmotionDiaryViewController: UIViewController {
     
     @IBAction func emotionButtonTapped(_ sender: UIButton) {
         emotionArrary[sender.tag] += 1
-        emotionLabelCollection[sender.tag].text = emotionName[sender.tag] + "\(emotionArrary[sender.tag])"
-
+//        emotionLabelCollection[sender.tag].text = emotionName[sender.tag] + "\(emotionArrary[sender.tag])"
+        let emotionCase = emotionCases[sender.tag]
+        let emotionString = emotionCase.rawValue
+        emotionLabelCollection[sender.tag].text = emotionString + "\(emotionArrary[sender.tag])"
     }
 
     
