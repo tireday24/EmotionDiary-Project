@@ -353,10 +353,10 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime1"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="vxo-tW-u1W"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="UTO-5U-fCX"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmJ-gS-c46">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmJ-gS-c46">
                                                         <rect key="frame" x="116" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="KTC-Zi-Sf0"/>
@@ -367,10 +367,10 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime2"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="AZq-9W-W24"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="8Sn-wF-Z06"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHS-In-ngO">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHS-In-ngO">
                                                         <rect key="frame" x="232" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="LIU-WH-TCT"/>
@@ -381,7 +381,7 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime3"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="el6-py-WpE"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="GON-cn-Epi"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -423,7 +423,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="sNb-36-Vdf">
                                                 <rect key="frame" x="0.0" y="0.0" width="332" height="100"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Su-G8-RlO">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Su-G8-RlO">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="7cD-5U-LeW"/>
@@ -434,10 +434,10 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime4"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="bYP-SF-6hD"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="B2l-1I-cL4"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-fQ-klH">
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-fQ-klH">
                                                         <rect key="frame" x="116" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="e7h-To-GnK"/>
@@ -448,10 +448,10 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime5"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="2s3-Cs-17a"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="GPy-vq-S5q"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhw-jg-NBQ">
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhw-jg-NBQ">
                                                         <rect key="frame" x="232" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="64Q-eA-VA3"/>
@@ -462,7 +462,7 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime6"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="LqR-oi-TqC"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="kt5-yk-0QB"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -504,7 +504,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="mgZ-1H-73S">
                                                 <rect key="frame" x="0.0" y="0.0" width="332" height="100"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iO1-fU-jQH">
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iO1-fU-jQH">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="7nu-ZT-NAn"/>
@@ -515,10 +515,10 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime7"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="nb1-33-MTF"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="Fhs-X3-i1f"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McK-Ch-vDg">
+                                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McK-Ch-vDg">
                                                         <rect key="frame" x="116" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="WsN-CH-E5M"/>
@@ -529,10 +529,10 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime8"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="NAm-71-P4g"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="OvL-V2-CCc"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuc-gb-NJY">
+                                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuc-gb-NJY">
                                                         <rect key="frame" x="232" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="0Gb-fX-qpb"/>
@@ -543,7 +543,7 @@
                                                             <backgroundConfiguration key="background" image="sesac_slime9"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="buttonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="QFd-Ik-WEI"/>
+                                                            <action selector="emotionButtonTapped:" destination="pci-Oh-Y52" eventType="touchUpInside" id="tww-4R-er0"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -610,29 +610,207 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="boredButton" destination="iO1-fU-jQH" id="Hu9-h2-f8D"/>
-                        <outlet property="boredLabel" destination="t6r-fp-Cle" id="sA2-Mj-7Es"/>
+                        <outlet property="boredButton" destination="iO1-fU-jQH" id="lVP-3d-Ju1"/>
+                        <outlet property="boredLabel" destination="t6r-fp-Cle" id="hgA-81-iMh"/>
                         <outlet property="giveUpButton" destination="Uuc-gb-NJY" id="uEW-kF-6z1"/>
                         <outlet property="giveUpLabel" destination="QT2-el-xZL" id="v3b-bx-u8V"/>
-                        <outlet property="gloomyButton" destination="Dhw-jg-NBQ" id="omo-NM-cvy"/>
-                        <outlet property="gloomyLabel" destination="qm8-k0-yoF" id="GkV-pm-DaD"/>
-                        <outlet property="happyButton" destination="Tak-KD-VCb" id="QFS-zi-wMA"/>
-                        <outlet property="happyLabel" destination="boL-6p-7nD" id="sEd-o6-70y"/>
-                        <outlet property="likeButton" destination="MHS-In-ngO" id="Fho-bv-q3H"/>
-                        <outlet property="likeLabel" destination="hDm-fE-eXm" id="77v-ae-4Sd"/>
-                        <outlet property="loveButton" destination="vmJ-gS-c46" id="tPh-73-6Rd"/>
-                        <outlet property="loveLabel" destination="IMd-rT-x0r" id="HW9-b2-5Qb"/>
-                        <outlet property="stuffyButton" destination="4Su-G8-RlO" id="3Ya-Ju-CDJ"/>
-                        <outlet property="stuffyLabel" destination="JUr-QE-f7f" id="oss-vG-Y03"/>
-                        <outlet property="tiredButton" destination="McK-Ch-vDg" id="hCq-NW-neL"/>
-                        <outlet property="tiredLabel" destination="1h3-4Z-itv" id="jBR-Fn-Qvd"/>
-                        <outlet property="upsetButton" destination="ugq-fQ-klH" id="2rm-Tf-ezz"/>
-                        <outlet property="upsetLabel" destination="zDT-tN-tmf" id="OnE-aU-GQ2"/>
+                        <outlet property="gloomyButton" destination="ugq-fQ-klH" id="pxd-bs-yU3"/>
+                        <outlet property="gloomyLabel" destination="zDT-tN-tmf" id="wJz-dg-Yck"/>
+                        <outlet property="happyButton" destination="Tak-KD-VCb" id="mio-TK-ZTw"/>
+                        <outlet property="happyLabel" destination="boL-6p-7nD" id="sCf-Zd-FGP"/>
+                        <outlet property="likeButton" destination="MHS-In-ngO" id="3cM-z8-mB5"/>
+                        <outlet property="likeLabel" destination="hDm-fE-eXm" id="pyg-ce-zNY"/>
+                        <outlet property="loveButton" destination="vmJ-gS-c46" id="JVs-d6-KfZ"/>
+                        <outlet property="loveLabel" destination="IMd-rT-x0r" id="sc2-yN-aoQ"/>
+                        <outlet property="stuffyButton" destination="McK-Ch-vDg" id="b4M-aF-P5l"/>
+                        <outlet property="stuffyLabel" destination="1h3-4Z-itv" id="OfN-v4-JjV"/>
+                        <outlet property="tiredButton" destination="Dhw-jg-NBQ" id="OrU-rn-VI1"/>
+                        <outlet property="tiredLabel" destination="qm8-k0-yoF" id="ZaF-1V-8E8"/>
+                        <outlet property="upsetButton" destination="4Su-G8-RlO" id="mqm-6g-HwX"/>
+                        <outlet property="upsetLabel" destination="JUr-QE-f7f" id="ior-DL-OUX"/>
+                        <outletCollection property="emotionButton" destination="Tak-KD-VCb" collectionClass="NSMutableArray" id="fOe-O1-71s"/>
+                        <outletCollection property="emotionButton" destination="vmJ-gS-c46" collectionClass="NSMutableArray" id="Tp8-hm-jaQ"/>
+                        <outletCollection property="emotionButton" destination="MHS-In-ngO" collectionClass="NSMutableArray" id="K5i-lc-MMH"/>
+                        <outletCollection property="emotionButton" destination="4Su-G8-RlO" collectionClass="NSMutableArray" id="3ff-Cj-ZBu"/>
+                        <outletCollection property="emotionButton" destination="ugq-fQ-klH" collectionClass="NSMutableArray" id="sYh-ep-Nou"/>
+                        <outletCollection property="emotionButton" destination="Dhw-jg-NBQ" collectionClass="NSMutableArray" id="aD9-xP-SFR"/>
+                        <outletCollection property="emotionButton" destination="iO1-fU-jQH" collectionClass="NSMutableArray" id="6d8-9Z-Q3U"/>
+                        <outletCollection property="emotionButton" destination="McK-Ch-vDg" collectionClass="NSMutableArray" id="19k-VQ-pio"/>
+                        <outletCollection property="emotionButton" destination="Uuc-gb-NJY" collectionClass="NSMutableArray" id="Tb7-Zw-ihv"/>
+                        <outletCollection property="emotionLabelCollection" destination="boL-6p-7nD" collectionClass="NSMutableArray" id="W6V-sR-32A"/>
+                        <outletCollection property="emotionLabelCollection" destination="IMd-rT-x0r" collectionClass="NSMutableArray" id="xda-xn-7Pn"/>
+                        <outletCollection property="emotionLabelCollection" destination="hDm-fE-eXm" collectionClass="NSMutableArray" id="Nnt-TU-yeb"/>
+                        <outletCollection property="emotionLabelCollection" destination="JUr-QE-f7f" collectionClass="NSMutableArray" id="TJ7-Fj-RbI"/>
+                        <outletCollection property="emotionLabelCollection" destination="zDT-tN-tmf" collectionClass="NSMutableArray" id="PL4-Ou-GUV"/>
+                        <outletCollection property="emotionLabelCollection" destination="qm8-k0-yoF" collectionClass="NSMutableArray" id="y47-tc-n6m"/>
+                        <outletCollection property="emotionLabelCollection" destination="t6r-fp-Cle" collectionClass="NSMutableArray" id="k2f-wi-pXc"/>
+                        <outletCollection property="emotionLabelCollection" destination="1h3-4Z-itv" collectionClass="NSMutableArray" id="s4e-NX-oWc"/>
+                        <outletCollection property="emotionLabelCollection" destination="QT2-el-xZL" collectionClass="NSMutableArray" id="ArV-od-3vz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0c-My-LmB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1921.7391304347827" y="2986.6071428571427"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="Zqm-h0-AC7">
+            <objects>
+                <tableViewController id="nDw-qB-ZI8" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="5E6-5c-ko7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="UAt-f0-fLd">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UAt-f0-fLd" id="EdV-h4-3sb">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nDw-qB-ZI8" id="glr-1W-1UE"/>
+                            <outlet property="delegate" destination="nDw-qB-ZI8" id="QWh-j7-tvn"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="OAR-ku-4i3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WNU-91-Rxp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2552" y="3734"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="04v-3N-ZVZ">
+            <objects>
+                <viewController id="tc1-nN-LD3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dsn-Q1-BSO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TBd-bW-sKB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qnF-CP-U2R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3256.521739130435" y="3732.5892857142853"/>
+        </scene>
+        <!--Practice View Controller-->
+        <scene sceneID="mrr-FE-OXh">
+            <objects>
+                <viewController id="zzc-hQ-ABx" customClass="PracticeViewController" customModule="SeSACWeek2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u4p-5c-Hej">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="안녕하세요 안녕하세요 안녕하세요 안녕하세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ES0-60-qZU">
+                                <rect key="frame" x="120" y="64" width="274" height="21"/>
+                                <color key="backgroundColor" red="0.74298204459999995" green="0.1579238396" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7m-2P-q9E" customClass="Practi">
+                                <rect key="frame" x="140" y="172" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Labelㄴㅇㅇㄴㅇ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rx-S8-6nG">
+                                <rect key="frame" x="178" y="209" width="115" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="안녕하세요 안녕하세요 안녕하세요 안녕하세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cP-IJ-5Ab">
+                                <rect key="frame" x="20" y="64" width="80" height="21"/>
+                                <color key="backgroundColor" red="0.32416501640000001" green="1" blue="0.51686792770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="3Hf-72-nvA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5fT-Nh-dEG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2cP-IJ-5Ab" firstAttribute="leading" secondItem="5fT-Nh-dEG" secondAttribute="leading" constant="20" id="3ct-wN-GdN"/>
+                            <constraint firstItem="ES0-60-qZU" firstAttribute="top" secondItem="5fT-Nh-dEG" secondAttribute="top" constant="20" id="V6D-Sf-9rL"/>
+                            <constraint firstItem="2cP-IJ-5Ab" firstAttribute="top" secondItem="5fT-Nh-dEG" secondAttribute="top" constant="20" id="ryi-kQ-oUU"/>
+                            <constraint firstItem="5fT-Nh-dEG" firstAttribute="trailing" secondItem="ES0-60-qZU" secondAttribute="trailing" constant="20" id="uVM-RE-Vm7"/>
+                            <constraint firstItem="ES0-60-qZU" firstAttribute="leading" secondItem="2cP-IJ-5Ab" secondAttribute="trailing" constant="20" id="v78-N2-Zg7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="prLabel" destination="R7m-2P-q9E" id="pjL-fb-bDg"/>
+                        <outlet property="practiceP" destination="5rx-S8-6nG" id="XOG-P2-hkc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DHz-wp-N54" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4221.739130434783" y="3794.8660714285711"/>
+        </scene>
+        <!--Segement View Controller-->
+        <scene sceneID="ut0-61-K1e">
+            <objects>
+                <viewController id="0Hq-Fs-zG2" customClass="SegementViewController" customModule="SeSACWeek2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m1H-zu-gtu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Ob-cj-Wmi">
+                                <rect key="frame" x="142" y="107" width="131" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="s:" destination="1Af-ZC-KWv" eventType="valueChanged" id="sMg-YX-ABz"/>
+                                    <action selector="segmentControlValuedChanged:" destination="0Hq-Fs-zG2" eventType="valueChanged" id="gbB-Ll-c2p"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Th3-TK-3qL">
+                                <rect key="frame" x="142" y="175" width="131" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uDt-Yy-jPt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="Th3-TK-3qL" id="nvd-El-oKG"/>
+                        <outlet property="segmentControl" destination="1Ob-cj-Wmi" id="Md2-MY-l7x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="huo-os-TZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="1Af-ZC-KWv" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="4956.521739130435" y="4197.9910714285716"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="j0L-2V-ITU">
+            <objects>
+                <navigationController id="FQv-34-abU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sDf-8p-E70">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nDw-qB-ZI8" kind="relationship" relationship="rootViewController" id="8sg-qH-5eQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7JM-4F-sPt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="3734"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="j6f-ga-r9B">

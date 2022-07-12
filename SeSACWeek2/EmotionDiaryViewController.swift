@@ -30,14 +30,23 @@ class EmotionDiaryViewController: UIViewController {
     @IBOutlet weak var tiredLabel: UILabel!
     @IBOutlet weak var giveUpLabel: UILabel!
     
+    @IBOutlet var emotionButton : [UIButton]!
+    @IBOutlet var emotionLabelCollection: [UILabel]!
+//
+    
     // data source
     var dictionary = [UIButton: UILabel]() // [:]
-    
-    
+    var emotionName = ["행복해", "사랑해", "좋아해", "당황해", "속상해", "우울해", "심심해", "따분해", "포기해"]
+    var emotionArrary = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // dictionary 를 채워주기
+        for i in 0...8 {
+            emotionButton[i].tag = i
+        }
+//
+         //dictionary 를 채워주기
         dictionary = [happyButton: happyLabel, loveButton: loveLabel, likeButton: likeLabel, stuffyButton: stuffyLabel, upsetButton: upsetLabel, gloomyButton: gloomyLabel, boredButton: boredLabel, tiredButton: tiredLabel, giveUpButton: giveUpLabel ]
         
         
@@ -58,6 +67,13 @@ class EmotionDiaryViewController: UIViewController {
     }
     
     
+    @IBAction func emotionButtonTapped(_ sender: UIButton) {
+        emotionArrary[sender.tag] += 1
+        emotionLabelCollection[sender.tag].text = emotionName[sender.tag] + "\(emotionArrary[sender.tag])"
+
+    }
+
+    
     /*
      행복해 4
      1. label1: 행복해 2
@@ -72,39 +88,35 @@ class EmotionDiaryViewController: UIViewController {
     
     // [uibutton: uilabel] <- sender 를 사용해서 uilabel
     
-    
-    
-    
-    
-    
-    
-    @IBAction func buttonTapped(_ sender: UIButton) {
-        // sender 에 맞는 label을 찾아주기 dictionary 사용해서
-        if let label = dictionary[sender] {
-            if let labelTexts = label.text?.split(separator: " ") { // [행복해] count = 1
-                if labelTexts.count == 2 {
-                    // array 의 index 1 에 접근해서 숫자 빼내기
-                    // 만약, array 의 element 갯수가 1개면, 못빼옴. crash
-                    // 빼오려면, 반드시  array count가 2여야함.
-                    let number = labelTexts[1]
-                    if var num = Int(String(number)) { // 숫자로 변환 가능하면
-                        num += 1
-                        label.text = String(labelTexts[0]) + " \(num)"
-                        // assign new label to happyLabel's text
-                    }
-                } else if labelTexts.count == 1 {
-                    // 행복해 1
-                    // happyLabel.text에 1을 추가로 넣어준다
-                    if let text = label.text {
-                        label.text = text + " 1"
-                    }
-                }
-            }
-        }
-        
-    }
-    
+//    @IBAction func buttonTapped(_ sender: UIButton) {
+//        // sender 에 맞는 label을 찾아주기 dictionary 사용해서
+//        if let label = dictionary[sender] {
+//            if let labelTexts = label.text?.split(separator: " ") { // [행복해] count = 1
+//                if labelTexts.count == 2 {
+//                    // array 의 index 1 에 접근해서 숫자 빼내기
+//                    // 만약, array 의 element 갯수가 1개면, 못빼옴. crash
+//                    // 빼오려면, 반드시  array count가 2여야함.
+//                    let number = labelTexts[1]
+//                    if var num = Int(String(number)) { // 숫자로 변환 가능하면
+//                        num += 1
+//                        label.text = String(labelTexts[0]) + " \(num)"
+//                        // assign new label to happyLabel's text
+//                    }
+//                } else if labelTexts.count == 1 {
+//                    // 행복해 1
+//                    // Label.text에 1을 추가로 넣어준다
+//                    if let text = label.text {
+//                        label.text = text + " 1"
+//                    }
+//                }
+//            }
+//        }
+//
+//    }
 
+
+
+    
    
     
     
