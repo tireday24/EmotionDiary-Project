@@ -48,6 +48,7 @@ class EmotionDiaryViewController: UIViewController {
         case 따분해 = "따분해"
         case 포기해 = "포기해"
     }
+    
     var dictionary = [UIButton: UILabel]() // [:]
     var emotionCases: [EmotionEnum] = [.행복해, .사랑해, .좋아해, .당황해, .속상해, .우울해, .심심해, .따분해, .포기해]
     var emotionArrary = [0, 0, 0, 0, 0, 0, 0, 0, 0]
