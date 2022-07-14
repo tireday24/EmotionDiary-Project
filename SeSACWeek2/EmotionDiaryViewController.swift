@@ -7,7 +7,17 @@
 
 import UIKit
 
-
+enum EmotionEnum: String {
+    case 행복해 = "행복해"
+    case 사랑해 = "사랑해"
+    case 좋아해 = "좋아해"
+    case 당황해 = "당황해"
+    case 속상해 = "속상해"
+    case 우울해 = "우울해"
+    case 심심해 = "심심해"
+    case 따분해 = "따분해"
+    case 포기해 = "포기해"
+}
 
 class EmotionDiaryViewController: UIViewController {
     
@@ -37,17 +47,17 @@ class EmotionDiaryViewController: UIViewController {
 //
     
     // data source
-    enum EmotionEnum: String {
-        case 행복해 = "행복해"
-        case 사랑해 = "사랑해"
-        case 좋아해 = "좋아해"
-        case 당황해 = "당황해"
-        case 속상해 = "속상해"
-        case 우울해 = "우울해"
-        case 심심해 = "심심해"
-        case 따분해 = "따분해"
-        case 포기해 = "포기해"
-    }
+//    enum EmotionEnum: String {
+//        case 행복해 = "행복해"
+//        case 사랑해 = "사랑해"
+//        case 좋아해 = "좋아해"
+//        case 당황해 = "당황해"
+//        case 속상해 = "속상해"
+//        case 우울해 = "우울해"
+//        case 심심해 = "심심해"
+//        case 따분해 = "따분해"
+//        case 포기해 = "포기해"
+//    }
     
     var dictionary = [UIButton: UILabel]() // [:]
     var emotionCases: [EmotionEnum] = [.행복해, .사랑해, .좋아해, .당황해, .속상해, .우울해, .심심해, .따분해, .포기해]

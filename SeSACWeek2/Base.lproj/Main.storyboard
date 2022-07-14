@@ -276,6 +276,32 @@
             </objects>
             <point key="canvasLocation" x="4967" y="201"/>
         </scene>
+        <!--Alert View Controller-->
+        <scene sceneID="AT4-EQ-YvJ">
+            <objects>
+                <viewController id="Mgi-6y-4hn" customClass="AlertViewController" customModule="SeSACWeek2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WKC-Fi-7n2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EF-lN-PKq">
+                                <rect key="frame" x="71" y="326" width="272" height="245"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="sesac_slime7"/>
+                                <connections>
+                                    <action selector="buttonPra:" destination="Mgi-6y-4hn" eventType="touchUpInside" id="W95-Ay-cHe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gcM-W4-fLE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iOd-3h-TLD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4860.8695652173919" y="2931.6964285714284"/>
+        </scene>
         <!--Root View Controller-->
         <scene sceneID="DKG-DR-tM5">
             <objects>
@@ -688,8 +714,29 @@
                     <view key="view" contentMode="scaleToFill" id="dsn-Q1-BSO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Label Label Label Label Label Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tf-0S-fWx">
+                                <rect key="frame" x="20" y="64" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="999" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="LabelLabelLabelLabelLabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Is1-cT-p3E">
+                                <rect key="frame" x="146" y="64" width="248" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="TBd-bW-sKB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Is1-cT-p3E" firstAttribute="leading" secondItem="6tf-0S-fWx" secondAttribute="trailing" constant="20" id="1qv-tC-1tn"/>
+                            <constraint firstItem="6tf-0S-fWx" firstAttribute="leading" secondItem="TBd-bW-sKB" secondAttribute="leading" constant="20" id="DRZ-co-b7d"/>
+                            <constraint firstItem="TBd-bW-sKB" firstAttribute="trailing" secondItem="Is1-cT-p3E" secondAttribute="trailing" constant="20" id="H2N-qN-SYF"/>
+                            <constraint firstItem="6tf-0S-fWx" firstAttribute="top" secondItem="TBd-bW-sKB" secondAttribute="top" constant="20" id="jiN-Rh-Jfl"/>
+                            <constraint firstItem="Is1-cT-p3E" firstAttribute="top" secondItem="TBd-bW-sKB" secondAttribute="top" constant="20" id="tfg-vG-ouY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qnF-CP-U2R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -718,13 +765,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Labelㄴㅇㅇㄴㅇ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rx-S8-6nG">
-                                <rect key="frame" x="178" y="209" width="115" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="안녕하세요 안녕하세요 안녕하세요 안녕하세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cP-IJ-5Ab">
                                 <rect key="frame" x="20" y="64" width="80" height="21"/>
                                 <color key="backgroundColor" red="0.32416501640000001" green="1" blue="0.51686792770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -748,7 +788,6 @@
                     </view>
                     <connections>
                         <outlet property="prLabel" destination="R7m-2P-q9E" id="pjL-fb-bDg"/>
-                        <outlet property="practiceP" destination="5rx-S8-6nG" id="XOG-P2-hkc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHz-wp-N54" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
