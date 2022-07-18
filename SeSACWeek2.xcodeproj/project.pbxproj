@@ -20,6 +20,9 @@
 		8158B964287BA3EF00BE911E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8158B963287BA3EF00BE911E /* Assets.xcassets */; };
 		8158B967287BA3EF00BE911E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8158B965287BA3EF00BE911E /* LaunchScreen.storyboard */; };
 		8158B96F287C1AC600BE911E /* EmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158B96E287C1AC600BE911E /* EmotionDiaryViewController.swift */; };
+		81B9107B2880E8420009028A /* TransitionStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B9107A2880E8420009028A /* TransitionStoryboard.storyboard */; };
+		81B9107D2880EFBC0009028A /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B9107C2880EFBC0009028A /* TransitionFirstViewController.swift */; };
+		81B9107F2880FE030009028A /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B9107E2880FE030009028A /* TransitionSecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		8158B966287BA3EF00BE911E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8158B968287BA3EF00BE911E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8158B96E287C1AC600BE911E /* EmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewController.swift; sourceTree = "<group>"; };
+		81B9107A2880E8420009028A /* TransitionStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransitionStoryboard.storyboard; sourceTree = "<group>"; };
+		81B9107C2880EFBC0009028A /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = "<group>"; };
+		81B9107E2880FE030009028A /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 		8158B959287BA3EC00BE911E /* SeSACWeek2 */ = {
 			isa = PBXGroup;
 			children = (
+				81B910792880E8260009028A /* Transition */,
 				8158B95A287BA3EC00BE911E /* AppDelegate.swift */,
 				8158B95C287BA3EC00BE911E /* SceneDelegate.swift */,
 				8158B95E287BA3EC00BE911E /* ViewController.swift */,
@@ -86,6 +93,16 @@
 				8158B968287BA3EF00BE911E /* Info.plist */,
 			);
 			path = SeSACWeek2;
+			sourceTree = "<group>";
+		};
+		81B910792880E8260009028A /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				81B9107A2880E8420009028A /* TransitionStoryboard.storyboard */,
+				81B9107E2880FE030009028A /* TransitionSecondViewController.swift */,
+				81B9107C2880EFBC0009028A /* TransitionFirstViewController.swift */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +149,8 @@
 				Base,
 			);
 			mainGroup = 8158B94E287BA3EC00BE911E;
+			packageReferences = (
+			);
 			productRefGroup = 8158B958287BA3EC00BE911E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,6 +167,7 @@
 			files = (
 				8158B967287BA3EF00BE911E /* LaunchScreen.storyboard in Resources */,
 				8158B964287BA3EF00BE911E /* Assets.xcassets in Resources */,
+				81B9107B2880E8420009028A /* TransitionStoryboard.storyboard in Resources */,
 				8158B962287BA3EC00BE911E /* Main.storyboard in Resources */,
 				810F7072287FA684007D4BC6 /* Setting.storyboard in Resources */,
 				810F7074287FA807007D4BC6 /* Search.storyboard in Resources */,
@@ -166,9 +186,11 @@
 				8158B95F287BA3EC00BE911E /* ViewController.swift in Sources */,
 				81483950287EEDFF00819F71 /* AlertViewController.swift in Sources */,
 				8158B95B287BA3EC00BE911E /* AppDelegate.swift in Sources */,
+				81B9107D2880EFBC0009028A /* TransitionFirstViewController.swift in Sources */,
 				813D5B48287D1C0B00977CB1 /* PracticeViewController.swift in Sources */,
 				8158B95D287BA3EC00BE911E /* SceneDelegate.swift in Sources */,
 				8148394E287EC14D00819F71 /* BlogViewController.swift in Sources */,
+				81B9107F2880FE030009028A /* TransitionSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
